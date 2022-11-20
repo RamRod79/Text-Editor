@@ -4,9 +4,11 @@
 
 A short description explaining the what, why, and how of project "Employee-Tracker":
 
-An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Used Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the Express.js and Mongoose packages, you may also optionally use a JavaScript date library of your choice or the native JavaScript Date object to format timestamps.
+A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
-A walkthrough video that demonstrates its functionality is included with a link to the video of the project. 
+The application implements methods for getting and storing data to an IndexedDB database. The app uses a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data.
+
+This application is als deployed to Heroku. 
 
 ## User Story
 
@@ -123,7 +125,7 @@ If other developers would like to contribute, you can contact me at armando.rod7
 ## URL
 GitHub: https://github.com/RamRod79/Text-Editor.git
 
-video: https://drive.google.com/file/
+Deployed URL: https://drive.google.com/file/
 
 ## Contact Info
 
