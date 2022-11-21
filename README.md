@@ -74,23 +74,21 @@ THEN I should have proper build scripts for a webpack application
 
 Pulling the GitHub repository from the follwing URL: https://github.com/RamRod79/Text-Editor.git and typing the follwoing command ,'npm install', in the terminal will ensure the dependencies are installed and the program can run properly.
 
-- Download and run mysql server.
-
-- Download the repository to your own local machine and run it from your command line.
+- Clone the repository to your own local machine and run it from your command line.
 
 - Run ```npm i``` or ```npm install``` in order to download all the dependencies.
 
-- MySQL instructions to create your tables:
+- Then run the following command:
 
-        - Enter ```mysql -u root -p``` in the terminal window.
-        - Enter your mysql password. 
-        - Create database by entering ```CREATE DATABASE employeeTracker_db;``` and enter.
-        - Then enter ```SHOW databases;```.
-        - To use the employees database; enter ```USE employeeTracker_db;```.
-        - In order to use your .sql files enter ```source db/schema.sql;``` and enter, then type ```source db/seeds.sql;``` and enter.
-        - Exit MySQL by entering ```quit;```.
+        - Enter ```npm run start:dev``` in the terminal window.
   
-  Run ```node index.js``` or ```npm start``` in your terminal to satrt.
+  Run  ```npm start``` in your terminal to satrt.
+
+  Open browser and type http://localhost:3000/ to run this application on your local machine.
+
+## Deployed Link
+
+The link to the deployed application is:  https://ramrod-jate.herokuapp.com/.
 
 ## Usage
 
@@ -114,9 +112,6 @@ The following licenses have been used in the development of this project:
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 ![License: MIT](https://img.shields.io/badge/License-MIT-success)
 
-## Repo Features
-
-Using this repo can be initiated by running 'npm run Start' in the command terminal after opening the integrated terminal to initiate the program. Using this repo requires express and nodemon, and updated node modules to ensure application runs properly.
 
 ## How to Contribute
 
@@ -125,7 +120,7 @@ If other developers would like to contribute, you can contact me at armando.rod7
 ## URL
 GitHub: https://github.com/RamRod79/Text-Editor.git
 
-Deployed URL: https://drive.google.com/file/
+Deployed URL: https://ramrod-jate.herokuapp.com/
 
 ## Contact Info
 
