@@ -2,7 +2,7 @@
 
 ## Description
 
-A short description explaining the what, why, and how of project "Employee-Tracker":
+A short description explaining the what, why, and how of project "Text Editor":
 
 A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
@@ -80,11 +80,10 @@ Pulling the GitHub repository from the follwing URL: https://github.com/RamRod79
 
 - Then run the following command:
 
-        - Enter ```npm run start:dev``` in the terminal window.
+        - Enter ```npm run build``` in the terminal window.
+        - Enter ```npm run start:dev``` in the terminal window to start.
   
-  Run  ```npm start``` in your terminal to satrt.
-
-  Open browser and type http://localhost:3000/ to run this application on your local machine.
+   Open browser and type http://localhost:3000/ to run this application on your local machine.
 
 ## Deployed Link
 
@@ -93,6 +92,7 @@ The link to the deployed application is:  https://ramrod-jate.herokuapp.com/.
 ## Usage
 
 ![Screenshot of app being used.](./assets/images/Screenshot01.jpg)
+![Screenshot of app being used.](./assets/images/Screenshot03.jpg)
 ![Screenshot of app being used.](./assets/images/Screenshot02.jpg)
 
 ## Credits
